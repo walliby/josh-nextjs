@@ -13,7 +13,7 @@ describe("Home", () => {
     expect(heading).toBeInTheDocument();
   });
 
-  // it("test a failure", () => {
-  //   expect(false).toBeTruthy();
-  // });
+  it("test a failure", () => {
+    expect(false).toBeTruthy();
+  });
 });
